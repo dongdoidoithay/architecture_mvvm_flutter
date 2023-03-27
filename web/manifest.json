@@ -1,6 +1,6 @@
 {
-    "name": "flutter_architecture_mvvm",
-    "short_name": "flutter_architecture_mvvm",
+    "name": "architecture_mvvm_flutter",
+    "short_name": "architecture_mvvm_flutter",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

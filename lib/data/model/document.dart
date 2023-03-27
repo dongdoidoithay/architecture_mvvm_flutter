@@ -1,24 +1,21 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
+import 'package:flutter/foundation.dart';
 
-import 'chapter.dart';
+import 'chapterList.dart';
 
 part 'document.freezed.dart';
-
 part 'document.g.dart';
 
 @freezed
 abstract class Document with _$Document {
-  factory Document({
-    Chapter chapter,
-    String author,
-    String title,
-    String description,
-    String url,
-    String urlToImage,
-    DateTime publishedAt,
-    String content,
-  }) = _Document;
+  const factory Document(
+      {List<ChapterList>? chapters,
+      String? docId,
+      String? nameDoc,
+      String? auth,
+      String? genres,
+      DateTime? lastUpdate}) = _Document;
 
-  factory Document.fromJson(Map<String, dynamic> json) =>
+  factory Document.fromJson(Map<String, Object?> json) =>
       _$DocumentFromJson(json);
 }

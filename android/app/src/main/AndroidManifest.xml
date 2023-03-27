@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.flutter_architecture_mvvm">
+    package="com.dproject.architecture_mvvm_flutter">
    <application
-        android:label="flutter_architecture_mvvm"
+        android:label="architecture_mvvm_flutter"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

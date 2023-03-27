@@ -1,4 +1,4 @@
-# flutter_architecture_mvvm
+# architecture_mvvm_flutter
 
 A new Flutter project.
 

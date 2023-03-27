@@ -1,0 +1,17 @@
+########_ MODEDEL_
+flutter pub add freezed_annotation
+flutter pub add --dev build_runner
+flutter pub add --dev freezed
+# if using freezed to generate fromJson/toJson, also add:
+flutter pub add json_annotation
+flutter pub add --dev json_serializable
+
+########_NET
+flutter pub add dio
+
+########_NET
+flutter pub add flutter_riverpod
+flutter pub add hooks_riverpod
+
+########_shared
+flutter pub add mmkv

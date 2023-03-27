@@ -89,13 +89,13 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "flutter_architecture_mvvm" "\0"
+            VALUE "CompanyName", "com.dproject" "\0"
+            VALUE "FileDescription", "architecture_mvvm_flutter" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "flutter_architecture_mvvm" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2023 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "flutter_architecture_mvvm.exe" "\0"
-            VALUE "ProductName", "flutter_architecture_mvvm" "\0"
+            VALUE "InternalName", "architecture_mvvm_flutter" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2023 com.dproject. All rights reserved." "\0"
+            VALUE "OriginalFilename", "architecture_mvvm_flutter.exe" "\0"
+            VALUE "ProductName", "architecture_mvvm_flutter" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END
