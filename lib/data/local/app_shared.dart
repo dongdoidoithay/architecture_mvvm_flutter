@@ -12,7 +12,7 @@ class CommonDB {
     _mmkv = MMKV(DBId);
   }
 
-  void cacheValue(String key, var value) async {
+  void setCacheValue(String key, var value) async {
     if (_mmkv == null) {
       await init();
     }

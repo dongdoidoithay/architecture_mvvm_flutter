@@ -17,6 +17,6 @@ class ThemeDataSourceImpl extends ThemeDataSource {
 
   @override
   Future<void> saveThemMode(ThemeMode theme) async {
-    db?.cacheValue(keyThemeMode, EnumToString.convertToString(theme));
+    db?.setCacheValue(keyThemeMode, EnumToString.convertToString(theme));
   }
 }

@@ -7,7 +7,7 @@ class HomeDataSourceImpl implements HomeDataSource {
 
   final Dio _dio;
 
-  @override
+/*   @override
   Future<LastUpdate> getListLastUpdate() {
     return _dio
         .get(
@@ -23,5 +23,5 @@ class HomeDataSourceImpl implements HomeDataSource {
           Constants.apiSlide,
         )
         .then((response) => Slide.fromJson(response.data!));
-  }
+  } */
 }
