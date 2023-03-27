@@ -1,0 +1,34 @@
+lib/
+├── data/
+│   ├── models/
+│   ├── repository/
+│   ├── provider/
+|   └── remote/
+├── screens/
+│   ├── home/
+│   │   ├── home_view.dart
+│   │   ├── home_view_model.dart
+│   │   └── components/
+│   └── splash/
+│       ├── splash_view.dart
+│       ├── splash_view_model.dart
+│       └── components/
+├── utils/
+│   ├── constants.dart
+│   └── helpers.dart
+├── app.dart
+└── main.dart
+
+
+
+
+[RUN GEN]
+flutter pub run build_runner build
+
+
+flutter pub add freezed_annotation
+flutter pub add --dev build_runner
+flutter pub add --dev freezed
+# if using freezed to generate fromJson/toJson, also add:
+flutter pub add json_annotation
+flutter pub add --dev json_serializable
